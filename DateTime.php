@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Current Date Time</title>
+  </head>
 <body>
 
 <?php
