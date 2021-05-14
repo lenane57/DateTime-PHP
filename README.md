@@ -2,4 +2,4 @@
 
 DateTime-PHP
 
-this is a simple script that tells your the current Date.
+this is a simple script that tells your the current Date & Time for the region of EMEA GMT.
