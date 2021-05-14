@@ -18,9 +18,9 @@ $mydate=getdate(date("U"));
 
 echo "<br> $mydate[month] $mydate[mday], $mydate[year]";
 
-&copy; 2010 echo date("Y");
-
 ?>
+
+© 2010-<?php echo date("Y");?>
 
 </body>
 </html>
