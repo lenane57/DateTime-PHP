@@ -7,7 +7,7 @@
 <body>
 
 <?php
-// Return today date.
+// Return today date in different date formats.
 echo "Today is " . date("Y/m/d") . "<br>";
 echo "Today is " . date("Y.m.d") . "<br>";
 echo "Today is " . date("Y-m-d") . "<br>";
@@ -17,6 +17,12 @@ echo "Today is " . date("l"."<br>");
 $mydate=getdate(date("U"));
 
 echo "<br> $mydate[month] $mydate[mday], $mydate[year]<br>";
+
+//this tells the current time for the regoin of Dublin Ireland
+//you'll need to change "Europe/Dublin" to the region of your choice
+
+date_default_timezone_set("Europe/Dublin");
+echo "The time is " . date("H:i:s")."<br>";
 
 ?>
 
